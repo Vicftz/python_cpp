@@ -1,7 +1,7 @@
 CPPFLAGS=-I /usr/include/python3.6m
 LIBS=-lpython3.6m -lboost_python3-py36
 
-COMPOSANT = hello_ext
+COMPOSANT = hash
 
 LIBSO = ${COMPOSANT}.so
 LIBSO_OBJS = ${COMPOSANT}.o
